@@ -1,0 +1,28 @@
+/* Eu (Thalita): CSS simples para não ficar só em preto e branco */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #444;
+}
+
+nav {
+    color: rgb(0, 0, 0);  /* cor do texto */
+    padding: 8px 8px;          /* espaço interno */
+    margin: 0 0px;              /* espaço entre abas */
+    border-radius: 5px;         /* cantos arredondados */
+    background-color: #f0f0f0;  /* cor de fundo */
+    transition: 0.3s;           /* suaviza o hover */
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Efeito quando passa o mouse */
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
