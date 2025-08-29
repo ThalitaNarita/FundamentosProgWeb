@@ -1,4 +1,4 @@
-/* Eu (Thalita): CSS simples para não ficar só em preto e branco */
+/* basic style */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -12,16 +12,16 @@ h1 {
 
 nav {
     color: rgb(0, 0, 0);  /* cor do texto */
-    padding: 8px 8px;          /* espaço interno */
+    padding: 8px 8px;          /* pegar espaço todo */
     margin: 0 0px;              /* espaço entre abas */
-    border-radius: 5px;         /* cantos arredondados */
+    border-radius: 5px;         /* cantinhos arredondados */
     background-color: #f0f0f0;  /* cor de fundo */
-    transition: 0.3s;           /* suaviza o hover */
+    transition: 0.3s;           /* hover suavizaado */
     text-align: center;
     margin: 10px 0;
 }
 
-/* Efeito quando passa o mouse */
+/* Efeito mouse */
 nav a:hover {
     background-color: #333;
     color: white;
